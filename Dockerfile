@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV LOCUST_VERSION 2.18.1
+ENV LOCUST_VERSION 2.18.2
 
 # Create locust user
 RUN useradd -ms /bin/bash locust
