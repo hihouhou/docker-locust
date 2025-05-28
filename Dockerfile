@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV LOCUST_VERSION=2.35.0
+ENV LOCUST_VERSION=2.37.6
 
 # Create locust user
 RUN useradd -ms /bin/bash locust
